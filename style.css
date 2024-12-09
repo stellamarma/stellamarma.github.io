@@ -108,3 +108,9 @@
     vertical-align: unset !important;  
    
 }
+.link-hover-underline {
+    text-decoration: none; /* Χωρίς υπογράμμιση από προεπιλογή */
+}
+.link-hover-underline:hover {
+    text-decoration: underline; /* Εμφάνιση υπογράμμισης όταν περνάει ο κέρσορας */
+}
